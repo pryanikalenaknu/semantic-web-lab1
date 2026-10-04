@@ -1,0 +1,1007 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix onp: <https://example.org/onp/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+onp:student-S01 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 01"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S02 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 02"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S03 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 03"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S04 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 04"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S05 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 05"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S06 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 06"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S07 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 07"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S08 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 08"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S09 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 09"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-1 .
+
+onp:student-S10 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 10"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S11 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 11"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S12 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 12"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S13 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 13"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S14 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 14"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S15 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 15"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S16 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 16"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S17 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 17"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S18 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 18"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-2 .
+
+onp:student-S19 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 19"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S20 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 20"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S21 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 21"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S22 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 22"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S23 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 23"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S24 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 24"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S25 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 25"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S26 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 26"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:student-S27 a foaf:Person,
+        onp:Student ;
+    foaf:name "Студент 27"@uk ;
+    onp:nalezhytPidgrupi onp:pidgrupa-3 .
+
+onp:FIT a org:OrganizationalUnit,
+        onp:Fakultet ;
+    org:subOrganizationOf onp:KNU ;
+    sdo:name "Факультет інформаційних технологій"@uk .
+
+onp:KNU a onp:Universytet,
+        sdo:CollegeOrUniversity ;
+    owl:sameAs wd:Q84151 ;
+    sdo:name "Taras Shevchenko National University of Kyiv"@en,
+        "Київський національний університет імені Тараса Шевченка"@uk ;
+    sdo:url "https://knu.ua"^^xsd:anyURI .
+
+onp:forma-zakhyst a skos:Concept,
+        onp:FormaKontrolyu ;
+    skos:prefLabel "захист"@uk .
+
+onp:kafedra-PST a org:OrganizationalUnit,
+        onp:Kafedra ;
+    org:subOrganizationOf onp:FIT ;
+    sdo:name "Кафедра програмних систем і технологій"@uk ;
+    sdo:url "https://pst.knu.ua"^^xsd:anyURI .
+
+onp:komponent-Blok1 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Вибірковий блок 1 «Програмування інтелектуальних систем»"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK12 ;
+    onp:vydKomponenta "вибірковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN21_1 ;
+    sdo:courseCode "Blok1" ;
+    sdo:name "Вибірковий блок 1 «Програмування інтелектуальних систем»"@uk ;
+    sdo:numberOfCredits 23 .
+
+onp:komponent-Blok2 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Вибірковий блок 2 «Програмування комп'ютерного зору»"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK12 ;
+    onp:vydKomponenta "вибірковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN21_2 ;
+    sdo:courseCode "Blok2" ;
+    sdo:name "Вибірковий блок 2 «Програмування комп'ютерного зору»"@uk ;
+    sdo:numberOfCredits 23 .
+
+onp:komponent-Blok3 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Вибірковий блок 3 «Квантове програмування»"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK12 ;
+    onp:vydKomponenta "вибірковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN21_3 ;
+    sdo:courseCode "Blok3" ;
+    sdo:name "Вибірковий блок 3 «Квантове програмування»"@uk ;
+    sdo:numberOfCredits 23 .
+
+onp:komponent-OK1 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Методологія та організація наукових досліджень з основами інтелектуальної власності"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK05 ;
+    onp:maieFormuKontrolyu onp:forma-zalik ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN03,
+        onp:rezultat-PRN14,
+        onp:rezultat-PRN17,
+        onp:rezultat-PRN19,
+        onp:rezultat-PRN20 ;
+    sdo:courseCode "OK1" ;
+    sdo:name "Методологія та організація наукових досліджень з основами інтелектуальної власності"@uk ;
+    sdo:numberOfCredits 3 .
+
+onp:komponent-OK10 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Підготовка та захист кваліфікаційної роботи"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK02,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK04,
+        onp:kompetentnist-ZK05 ;
+    onp:maieFormuKontrolyu onp:forma-zakhyst ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN01,
+        onp:rezultat-PRN02,
+        onp:rezultat-PRN04,
+        onp:rezultat-PRN05,
+        onp:rezultat-PRN07,
+        onp:rezultat-PRN09,
+        onp:rezultat-PRN10,
+        onp:rezultat-PRN12,
+        onp:rezultat-PRN15,
+        onp:rezultat-PRN17,
+        onp:rezultat-PRN19,
+        onp:rezultat-PRN20 ;
+    sdo:courseCode "OK10" ;
+    sdo:name "Підготовка та захист кваліфікаційної роботи"@uk ;
+    sdo:numberOfCredits 12 .
+
+onp:komponent-OK11 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Програмування обробки великих масивів даних"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK08,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN04,
+        onp:rezultat-PRN06,
+        onp:rezultat-PRN09,
+        onp:rezultat-PRN10,
+        onp:rezultat-PRN18 ;
+    sdo:courseCode "OK11" ;
+    sdo:name "Програмування обробки великих масивів даних"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK12 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Програмування вбудованих систем"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK03,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK06,
+        onp:kompetentnist-SK08,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK05 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN03,
+        onp:rezultat-PRN06,
+        onp:rezultat-PRN07,
+        onp:rezultat-PRN13 ;
+    sdo:courseCode "OK12" ;
+    sdo:name "Програмування вбудованих систем"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK13 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Засоби розробки та підтримки життєвого циклу ПЗ"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK03,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK06,
+        onp:kompetentnist-SK08,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN01,
+        onp:rezultat-PRN02,
+        onp:rezultat-PRN11,
+        onp:rezultat-PRN13,
+        onp:rezultat-PRN15,
+        onp:rezultat-PRN16,
+        onp:rezultat-PRN17 ;
+    sdo:courseCode "OK13" ;
+    sdo:name "Засоби розробки та підтримки життєвого циклу ПЗ"@uk ;
+    sdo:numberOfCredits 4 .
+
+onp:komponent-OK14 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Науковий семінар з програмної інженерії"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK04 ;
+    onp:maieFormuKontrolyu onp:forma-zalik ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN02,
+        onp:rezultat-PRN04,
+        onp:rezultat-PRN14,
+        onp:rezultat-PRN17,
+        onp:rezultat-PRN18,
+        onp:rezultat-PRN20 ;
+    sdo:courseCode "OK14" ;
+    sdo:name "Науковий семінар з програмної інженерії"@uk ;
+    sdo:numberOfCredits 5 .
+
+onp:komponent-OK15 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Курсова робота"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK02,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK05 ;
+    onp:maieFormuKontrolyu onp:forma-dyf_zalik ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN02,
+        onp:rezultat-PRN05,
+        onp:rezultat-PRN07,
+        onp:rezultat-PRN09,
+        onp:rezultat-PRN19,
+        onp:rezultat-PRN20 ;
+    sdo:courseCode "OK15" ;
+    sdo:name "Курсова робота"@uk ;
+    sdo:numberOfCredits 2 .
+
+onp:komponent-OK2 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Професійна та корпоративна етика"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK04,
+        onp:kompetentnist-SK06,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK04 ;
+    onp:maieFormuKontrolyu onp:forma-zalik ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN01,
+        onp:rezultat-PRN12,
+        onp:rezultat-PRN19 ;
+    sdo:courseCode "OK2" ;
+    sdo:name "Професійна та корпоративна етика"@uk ;
+    sdo:numberOfCredits 3 .
+
+onp:komponent-OK3 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Алгоритм обробки мультимедіа"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK05 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN09,
+        onp:rezultat-PRN10,
+        onp:rezultat-PRN18 ;
+    sdo:courseCode "OK3" ;
+    sdo:name "Алгоритм обробки мультимедіа"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK4 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Принципи, методи зв'язування даних у застосуваннях Семантичної павутини"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK02,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN04,
+        onp:rezultat-PRN06,
+        onp:rezultat-PRN07,
+        onp:rezultat-PRN08,
+        onp:rezultat-PRN09,
+        onp:rezultat-PRN15,
+        onp:rezultat-PRN20 ;
+    sdo:courseCode "OK4" ;
+    sdo:name "Принципи, методи зв'язування даних у застосуваннях Семантичної павутини"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK5 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Багатопотокове та розподілене програмування"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK03,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN05,
+        onp:rezultat-PRN07,
+        onp:rezultat-PRN08,
+        onp:rezultat-PRN09,
+        onp:rezultat-PRN13,
+        onp:rezultat-PRN16,
+        onp:rezultat-PRN19 ;
+    sdo:courseCode "OK5" ;
+    sdo:name "Multithreaded and distributed programming"@en,
+        "Багатопотокове та розподілене програмування"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK6 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Хмарні обчислення та їх надійність"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK08,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN01,
+        onp:rezultat-PRN02,
+        onp:rezultat-PRN03,
+        onp:rezultat-PRN08,
+        onp:rezultat-PRN11,
+        onp:rezultat-PRN14,
+        onp:rezultat-PRN15 ;
+    sdo:courseCode "OK6" ;
+    sdo:name "Cloud computing and it's reliability"@en,
+        "Хмарні обчислення та їх надійність"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK7 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Методи і технології високопродуктивних обчислень"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK02,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK05 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN05,
+        onp:rezultat-PRN06,
+        onp:rezultat-PRN07,
+        onp:rezultat-PRN08,
+        onp:rezultat-PRN11,
+        onp:rezultat-PRN16,
+        onp:rezultat-PRN18 ;
+    sdo:courseCode "OK7" ;
+    sdo:name "Методи і технології високопродуктивних обчислень"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK8 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Блокчейн технології"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK08,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK03 ;
+    onp:maieFormuKontrolyu onp:forma-ispyt ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN03,
+        onp:rezultat-PRN04,
+        onp:rezultat-PRN10,
+        onp:rezultat-PRN11 ;
+    sdo:courseCode "OK8" ;
+    sdo:name "Блокчейн технології"@uk ;
+    sdo:numberOfCredits 6 .
+
+onp:komponent-OK9 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Виробнича практика «Розробка програмно-інформаційних систем»"@uk ;
+    onp:formuieKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK02,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK04 ;
+    onp:maieFormuKontrolyu onp:forma-dyf_zalik ;
+    onp:vydKomponenta "обов'язковий"@uk ;
+    onp:zabezpechuieRezultat onp:rezultat-PRN03,
+        onp:rezultat-PRN04,
+        onp:rezultat-PRN07,
+        onp:rezultat-PRN12,
+        onp:rezultat-PRN14,
+        onp:rezultat-PRN19,
+        onp:rezultat-PRN20 ;
+    sdo:courseCode "OK9" ;
+    sdo:name "Виробнича практика «Розробка програмно-інформаційних систем»"@uk ;
+    sdo:numberOfCredits 10 .
+
+onp:komponent-Vybir1 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Вибір з переліку 1"@uk ;
+    onp:vydKomponenta "вибірковий"@uk ;
+    sdo:courseCode "Vybir1" ;
+    sdo:name "Вибір з переліку 1"@uk ;
+    sdo:numberOfCredits 5 .
+
+onp:komponent-Vybir2 a onp:OsvitniyKomponent,
+        sdo:Course ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Вибір з переліку 2"@uk ;
+    onp:vydKomponenta "вибірковий"@uk ;
+    sdo:courseCode "Vybir2" ;
+    sdo:name "Вибір з переліку 2"@uk ;
+    sdo:numberOfCredits 5 .
+
+onp:programa-F2-mahistr a onp:OsvitnyaPrograma,
+        sdo:EducationalOccupationalProgram ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    dcterms:title "Інженерія програмного забезпечення"@uk ;
+    onp:akredytacia "Сертифікат № 524 від 23.07.2020"@uk ;
+    onp:galuzZnan "F Інформаційні технології"@uk ;
+    onp:kodSpecialnosti "F2" ;
+    onp:osvitniyRiven "магістр"@uk ;
+    onp:realizuietsyaKafedroyu onp:kafedra-PST ;
+    onp:typProgramy "освітньо-наукова"@uk ;
+    sdo:hasCourse onp:komponent-Blok1,
+        onp:komponent-Blok2,
+        onp:komponent-Blok3,
+        onp:komponent-OK1,
+        onp:komponent-OK10,
+        onp:komponent-OK11,
+        onp:komponent-OK12,
+        onp:komponent-OK13,
+        onp:komponent-OK14,
+        onp:komponent-OK15,
+        onp:komponent-OK2,
+        onp:komponent-OK3,
+        onp:komponent-OK4,
+        onp:komponent-OK5,
+        onp:komponent-OK6,
+        onp:komponent-OK7,
+        onp:komponent-OK8,
+        onp:komponent-OK9,
+        onp:komponent-Vybir1,
+        onp:komponent-Vybir2 ;
+    sdo:name "Інженерія програмного забезпечення"@uk ;
+    sdo:numberOfCredits 120 ;
+    sdo:timeToComplete "P2Y"^^xsd:duration .
+
+onp:rezultat-PRN21_1 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN21.1" ;
+    skos:prefLabel "Вміти обирати і застосовувати методи та алгоритми інтелектуального аналізу даних та машинного навчання"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK12 .
+
+onp:rezultat-PRN21_2 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN21.2" ;
+    skos:prefLabel "Вміти розробляти складні програми різних архітектур для задач комп'ютерного зору"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK12 .
+
+onp:rezultat-PRN21_3 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN21.3" ;
+    skos:prefLabel "Вміти використовувати принципи і концепції передових програмних та обчислювальних технологій"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK12 .
+
+onp:forma-dyf_zalik a skos:Concept,
+        onp:FormaKontrolyu ;
+    skos:prefLabel "диференційований залік"@uk .
+
+onp:forma-zalik a skos:Concept,
+        onp:FormaKontrolyu ;
+    skos:prefLabel "залік"@uk .
+
+onp:grupa-ІПЗм-11 a foaf:Group,
+        onp:Grupa ;
+    onp:kilkistStudentiv 27 ;
+    onp:navchaietsyaZaProgramoyu onp:programa-F2-mahistr ;
+    sdo:name "ІПЗм-11"@uk .
+
+onp:rezultat-PRN12 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN12" ;
+    skos:prefLabel "Приймати ефективні організаційно-управлінські рішення в умовах невизначеності та зміни вимог"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK05,
+        onp:kompetentnist-SK06,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-ZK01 .
+
+onp:rezultat-PRN13 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN13" ;
+    skos:prefLabel "Конфігурувати програмне забезпечення, керувати його змінами та розробленням програмної документації"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK03,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01 .
+
+onp:rezultat-PRN16 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN16" ;
+    skos:prefLabel "Планувати, організовувати та здійснювати тестування, верифікацію та валідацію програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK03,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK05 .
+
+onp:rezultat-PRN01 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN01" ;
+    skos:prefLabel "Знати і застосовувати сучасні професійні стандарти та інші нормативно-правові документи з інженерії програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK05,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02 .
+
+onp:rezultat-PRN05 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN05" ;
+    skos:prefLabel "Розробляти, аналізувати, обґрунтовувати та систематизувати вимоги до програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK04 .
+
+onp:rezultat-PRN06 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN06" ;
+    skos:prefLabel "Розробляти та оцінювати стратегії проектування програмних засобів"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK03,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK06,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01 .
+
+onp:rezultat-PRN08 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN08" ;
+    skos:prefLabel "Розробляти та модифікувати архітектуру програмного забезпечення для реалізації вимог замовника"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK02,
+        onp:kompetentnist-SK03,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK05 .
+
+onp:rezultat-PRN10 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN10" ;
+    skos:prefLabel "Модифікувати існуючі та розробляти нові алгоритмічні рішення детального проектування"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK05 .
+
+onp:rezultat-PRN11 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN11" ;
+    skos:prefLabel "Забезпечувати якість на всіх стадіях життєвого циклу програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK08,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01 .
+
+onp:rezultat-PRN14 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN14" ;
+    skos:prefLabel "Прогнозувати розвиток програмних систем та інформаційних технологій"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK02,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02 .
+
+onp:rezultat-PRN15 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN15" ;
+    skos:prefLabel "Здійснювати реінжиніринг програмного забезпечення відповідно до вимог замовника"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02 .
+
+onp:rezultat-PRN17 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN17" ;
+    skos:prefLabel "Збирати, аналізувати, оцінювати необхідну для розв'язання наукових і прикладних задач інформацію"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK10,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK04 .
+
+onp:rezultat-PRN18 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN18" ;
+    skos:prefLabel "Розробляти математичне і програмне забезпечення для наукових досліджень у галузі інженерії програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK04,
+        onp:kompetentnist-ZK05 .
+
+onp:rezultat-PRN02 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN02" ;
+    skos:prefLabel "Оцінювати і вибирати методи і моделі розроблення, впровадження, супроводу програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK03,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK07,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01 .
+
+onp:rezultat-PRN03 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN03" ;
+    skos:prefLabel "Будувати і досліджувати моделі інформаційних процесів у прикладній області"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK05 .
+
+onp:kompetentnist-SK06 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK06" ;
+    skos:prefLabel "Здатність ефективно керувати фінансовими, людськими, технічними та іншими проектними ресурсами у сфері інженерії програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-SK08 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK08" ;
+    skos:prefLabel "Здатність розробляти і координувати процеси, етапи та ітерації життєвого циклу програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-SK12 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK12" ;
+    skos:prefLabel "Здатність застосовувати методи і алгоритми інтелектуального аналізу даних"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:rezultat-PRN04 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN04" ;
+    skos:prefLabel "Виявляти інформаційні потреби і класифікувати дані для проектування програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK01,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK04 .
+
+onp:rezultat-PRN09 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN09" ;
+    skos:prefLabel "Обґрунтовано вибирати парадигми і мови програмування для розроблення програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK04,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK09,
+        onp:kompetentnist-ZK01 .
+
+onp:rezultat-PRN19 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN19" ;
+    skos:prefLabel "Формулювати, експериментально перевіряти, обґрунтовувати і застосовувати на практиці інноваційні методи"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK03,
+        onp:kompetentnist-ZK04,
+        onp:kompetentnist-ZK05 .
+
+onp:rezultat-PRN20 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN20" ;
+    skos:prefLabel "Планувати і виконувати наукові дослідження в сфері інженерії програмного забезпечення"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK10,
+        onp:kompetentnist-SK11,
+        onp:kompetentnist-ZK01,
+        onp:kompetentnist-ZK02,
+        onp:kompetentnist-ZK04,
+        onp:kompetentnist-ZK05 .
+
+onp:rezultat-PRN07 a skos:Concept,
+        onp:RezultatNavchannya ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "PRN07" ;
+    skos:prefLabel "Аналізувати, оцінювати та застосовувати на системному рівні сучасні програмні та апаратні платформи"@uk ;
+    onp:spyraietsyaNaKompetentnist onp:kompetentnist-SK02,
+        onp:kompetentnist-SK03,
+        onp:kompetentnist-SK04,
+        onp:kompetentnist-SK05,
+        onp:kompetentnist-SK06,
+        onp:kompetentnist-ZK01 .
+
+onp:forma-ispyt a skos:Concept,
+        onp:FormaKontrolyu ;
+    skos:prefLabel "іспит"@uk .
+
+onp:kompetentnist-SK03 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK03" ;
+    skos:prefLabel "Здатність проєктувати архітектуру програмного забезпечення, моделювати процеси функціонування окремих підсистем і модулів"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:pidgrupa-1 a foaf:Group,
+        onp:Pidgrupa ;
+    org:subOrganizationOf onp:grupa-ІПЗм-11 ;
+    onp:nomerPidgrupy 1 ;
+    sdo:name "ІПЗм-11, підгрупа 1"@uk .
+
+onp:pidgrupa-2 a foaf:Group,
+        onp:Pidgrupa ;
+    org:subOrganizationOf onp:grupa-ІПЗм-11 ;
+    onp:nomerPidgrupy 2 ;
+    sdo:name "ІПЗм-11, підгрупа 2"@uk .
+
+onp:pidgrupa-3 a foaf:Group,
+        onp:Pidgrupa ;
+    org:subOrganizationOf onp:grupa-ІПЗм-11 ;
+    onp:nomerPidgrupy 3 ;
+    sdo:name "ІПЗм-11, підгрупа 3"@uk .
+
+onp:kompetentnist-SK10 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK10" ;
+    skos:prefLabel "Здатність планувати і виконувати наукові дослідження з інженерії програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-SK11 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK11" ;
+    skos:prefLabel "Здатність застосовувати і розвивати фундаментальні і міждисциплінарні знання для успішного розв'язання наукових проблем інженерії програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-ZK04 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "ZK04" ;
+    skos:prefLabel "Здатність спілкуватися з представниками інших професійних груп різного рівня"@uk ;
+    onp:typKompetentnosti "загальна"@uk .
+
+onp:kompetentnist-SK04 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK04" ;
+    skos:prefLabel "Здатність розвивати і реалізовувати нові конкурентоспроможні ідеї в інженерії програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-SK07 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK07" ;
+    skos:prefLabel "Здатність критично осмислювати проблеми у галузі інформаційних технологій та на межі галузей знань"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-ZK03 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "ZK03" ;
+    skos:prefLabel "Здатність проводити дослідження на відповідному рівні"@uk ;
+    onp:typKompetentnosti "загальна"@uk .
+
+onp:kompetentnist-ZK05 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "ZK05" ;
+    skos:prefLabel "Здатність генерувати нові ідеї (креативність)"@uk ;
+    onp:typKompetentnosti "загальна"@uk .
+
+onp:kompetentnist-SK05 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK05" ;
+    skos:prefLabel "Здатність розробляти, аналізувати та застосовувати специфікації, стандарти, правила і рекомендації в сфері інженерії програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-SK01 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK01" ;
+    skos:prefLabel "Здатність аналізувати предметні області, формувати, класифікувати вимоги до програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-SK09 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK09" ;
+    skos:prefLabel "Здатність забезпечувати якість програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-ZK02 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "ZK02" ;
+    skos:prefLabel "Здатність спілкуватися іноземною мовою як усно, так і письмово"@uk ;
+    onp:typKompetentnosti "загальна"@uk .
+
+onp:kompetentnist-SK02 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "SK02" ;
+    skos:prefLabel "Здатність розробляти і реалізовувати наукові та/або прикладні проекти у сфері інженерії програмного забезпечення"@uk ;
+    onp:typKompetentnosti "фахова"@uk .
+
+onp:kompetentnist-ZK01 a skos:Concept,
+        onp:Kompetentnist ;
+    dcterms:source "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"@uk ;
+    skos:notation "ZK01" ;
+    skos:prefLabel "Здатність до абстрактного мислення, аналізу та синтезу"@uk ;
+    onp:typKompetentnosti "загальна"@uk .
+
+
+onp:komponent-OK4 sdo:teaches "Побудова графів знань, RDF, SPARQL, JSON-LD"@uk .

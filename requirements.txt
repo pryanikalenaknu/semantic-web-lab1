@@ -1,0 +1,7 @@
+rdflib>=7.0
+SPARQLWrapper>=2.0
+pyvis>=0.3
+networkx>=3.0
+matplotlib>=3.7
+pydot>=2.0
+jupyter>=1.0
