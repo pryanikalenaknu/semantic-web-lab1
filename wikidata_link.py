@@ -20,7 +20,7 @@ import onp_data as d
 
 ENDPOINT = "https://query.wikidata.org/sparql"
 # Описовий user-agent згідно з політикою Wikimedia — підставити свої дані:
-USER_AGENT = "KNU-SemanticWebLab/1.0 (https://github.com/USERNAME/semantic-web-lab1)"
+USER_AGENT = "KNU-SemanticWebLab/1.0 (https://github.com/pryanikalenaknu/semantic-web-lab1)"
 
 WD = Namespace("http://www.wikidata.org/entity/")
 WDT = Namespace("http://www.wikidata.org/prop/direct/")

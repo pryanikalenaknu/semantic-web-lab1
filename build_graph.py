@@ -5,7 +5,7 @@ from rdflib.namespace import RDF, RDFS, OWL, XSD, FOAF, DCTERMS, SKOS
 
 import onp_data as d
 
-BASE = "https://example.org/onp/"          # замінити на власний домен репозиторію
+BASE = "https://pryanikalenaknu.github.io/semantic-web-lab1/onp/"
 ONP = Namespace(BASE)
 SDO = Namespace("https://schema.org/")     # Schema.org — саме https, не http
 ORG = Namespace("http://www.w3.org/ns/org#")

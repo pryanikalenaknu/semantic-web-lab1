@@ -11,7 +11,7 @@
     "foaf": "http://xmlns.com/foaf/0.1/",
     "geo": "http://www.opengis.net/ont/geosparql#",
     "odrl": "http://www.w3.org/ns/odrl/2/",
-    "onp": "https://example.org/onp/",
+    "onp": "https://pryanikalenaknu.github.io/semantic-web-lab1/onp/",
     "org": "http://www.w3.org/ns/org#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "prof": "http://www.w3.org/ns/dx/prof/",
@@ -33,45 +33,61 @@
   },
   "@graph": [
     {
-      "@id": "onp:KNU",
+      "@id": "onp:kompetentnist-SK07",
       "@type": [
-        "sdo:CollegeOrUniversity",
-        "onp:Universytet"
+        "onp:Kompetentnist",
+        "skos:Concept"
       ],
-      "owl:sameAs": {
-        "@id": "wd:Q84151"
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
       },
-      "sdo:name": [
-        {
-          "@language": "uk",
-          "@value": "Київський національний університет імені Тараса Шевченка"
-        },
-        {
-          "@language": "en",
-          "@value": "Taras Shevchenko National University of Kyiv"
-        }
-      ],
-      "sdo:url": {
-        "@type": "xsd:anyURI",
-        "@value": "https://knu.ua"
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK07",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність критично осмислювати проблеми у галузі інформаційних технологій та на межі галузей знань"
       }
     },
     {
-      "@id": "onp:student-S05",
+      "@id": "onp:student-S19",
       "@type": [
         "foaf:Person",
         "onp:Student"
       ],
       "foaf:name": {
         "@language": "uk",
-        "@value": "Студент 05"
+        "@value": "Студент 19"
       },
       "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
+        "@id": "onp:pidgrupa-3"
       }
     },
     {
-      "@id": "onp:rezultat-PRN03",
+      "@id": "onp:kompetentnist-SK10",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK10",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність планувати і виконувати наукові дослідження з інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN12",
       "@type": [
         "onp:RezultatNavchannya",
         "skos:Concept"
@@ -85,421 +101,20 @@
           "@id": "onp:kompetentnist-ZK01"
         },
         {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN03",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Будувати і досліджувати моделі інформаційних процесів у прикладній області"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN21_2",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": {
-        "@id": "onp:kompetentnist-SK12"
-      },
-      "skos:notation": "PRN21.2",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Вміти розробляти складні програми різних архітектур для задач комп'ютерного зору"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK15",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Курсова робота"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        },
-        {
-          "@id": "onp:kompetentnist-SK11"
-        }
-      ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-dyf_zalik"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN02"
-        },
-        {
-          "@id": "onp:rezultat-PRN05"
-        },
-        {
-          "@id": "onp:rezultat-PRN07"
-        },
-        {
-          "@id": "onp:rezultat-PRN09"
-        },
-        {
-          "@id": "onp:rezultat-PRN19"
-        },
-        {
-          "@id": "onp:rezultat-PRN20"
-        }
-      ],
-      "sdo:courseCode": "OK15",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Курсова робота"
-      },
-      "sdo:numberOfCredits": 2
-    },
-    {
-      "@id": "onp:student-S25",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 25"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK01",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK01",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність аналізувати предметні області, формувати, класифікувати вимоги до програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:student-S12",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 12"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-2"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-ZK03",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "загальна"
-      },
-      "skos:notation": "ZK03",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність проводити дослідження на відповідному рівні"
-      }
-    },
-    {
-      "@id": "onp:FIT",
-      "@type": [
-        "onp:Fakultet",
-        "org:OrganizationalUnit"
-      ],
-      "org:subOrganizationOf": {
-        "@id": "onp:KNU"
-      },
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Факультет інформаційних технологій"
-      }
-    },
-    {
-      "@id": "onp:forma-ispyt",
-      "@type": [
-        "onp:FormaKontrolyu",
-        "skos:Concept"
-      ],
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "іспит"
-      }
-    },
-    {
-      "@id": "onp:student-S24",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 24"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:student-S22",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 22"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:student-S04",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 04"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK7",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Методи і технології високопродуктивних обчислень"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        }
-      ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-ispyt"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN05"
-        },
-        {
-          "@id": "onp:rezultat-PRN06"
-        },
-        {
-          "@id": "onp:rezultat-PRN07"
-        },
-        {
-          "@id": "onp:rezultat-PRN08"
-        },
-        {
-          "@id": "onp:rezultat-PRN11"
-        },
-        {
-          "@id": "onp:rezultat-PRN16"
-        },
-        {
-          "@id": "onp:rezultat-PRN18"
-        }
-      ],
-      "sdo:courseCode": "OK7",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Методи і технології високопродуктивних обчислень"
-      },
-      "sdo:numberOfCredits": 6
-    },
-    {
-      "@id": "onp:student-S14",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 14"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-2"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK09",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK09",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність забезпечувати якість програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK12",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Програмування вбудованих систем"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK03"
-        },
-        {
           "@id": "onp:kompetentnist-SK05"
         },
         {
           "@id": "onp:kompetentnist-SK06"
         },
         {
-          "@id": "onp:kompetentnist-SK08"
+          "@id": "onp:kompetentnist-SK07"
         }
       ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-ispyt"
-      },
-      "onp:vydKomponenta": {
+      "skos:notation": "PRN12",
+      "skos:prefLabel": {
         "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN03"
-        },
-        {
-          "@id": "onp:rezultat-PRN06"
-        },
-        {
-          "@id": "onp:rezultat-PRN07"
-        },
-        {
-          "@id": "onp:rezultat-PRN13"
-        }
-      ],
-      "sdo:courseCode": "OK12",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Програмування вбудованих систем"
-      },
-      "sdo:numberOfCredits": 6
+        "@value": "Приймати ефективні організаційно-управлінські рішення в умовах невизначеності та зміни вимог"
+      }
     },
     {
       "@id": "onp:komponent-OK13",
@@ -588,26 +203,7 @@
       "sdo:numberOfCredits": 4
     },
     {
-      "@id": "onp:rezultat-PRN21_3",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": {
-        "@id": "onp:kompetentnist-SK12"
-      },
-      "skos:notation": "PRN21.3",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Вміти використовувати принципи і концепції передових програмних та обчислювальних технологій"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-ZK04",
+      "@id": "onp:kompetentnist-ZK03",
       "@type": [
         "onp:Kompetentnist",
         "skos:Concept"
@@ -620,138 +216,49 @@
         "@language": "uk",
         "@value": "загальна"
       },
-      "skos:notation": "ZK04",
+      "skos:notation": "ZK03",
       "skos:prefLabel": {
         "@language": "uk",
-        "@value": "Здатність спілкуватися з представниками інших професійних груп різного рівня"
+        "@value": "Здатність проводити дослідження на відповідному рівні"
       }
     },
     {
-      "@id": "onp:student-S23",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 23"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:student-S19",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 19"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN07",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK03"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK06"
-        }
-      ],
-      "skos:notation": "PRN07",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Аналізувати, оцінювати та застосовувати на системному рівні сучасні програмні та апаратні платформи"
-      }
-    },
-    {
-      "@id": "onp:student-S01",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 01"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
-      }
-    },
-    {
-      "@id": "onp:pidgrupa-2",
+      "@id": "onp:pidgrupa-3",
       "@type": [
         "foaf:Group",
         "onp:Pidgrupa"
       ],
-      "onp:nomerPidgrupy": 2,
+      "onp:nomerPidgrupy": 3,
       "org:subOrganizationOf": {
         "@id": "onp:grupa-ІПЗм-11"
       },
       "sdo:name": {
         "@language": "uk",
-        "@value": "ІПЗм-11, підгрупа 2"
+        "@value": "ІПЗм-11, підгрупа 3"
       }
     },
     {
-      "@id": "onp:komponent-Blok3",
+      "@id": "onp:kompetentnist-SK01",
       "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
+        "onp:Kompetentnist",
+        "skos:Concept"
       ],
       "dcterms:source": {
         "@language": "uk",
         "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
       },
-      "dcterms:title": {
+      "onp:typKompetentnosti": {
         "@language": "uk",
-        "@value": "Вибірковий блок 3 «Квантове програмування»"
+        "@value": "фахова"
       },
-      "onp:formuieKompetentnist": {
-        "@id": "onp:kompetentnist-SK12"
-      },
-      "onp:vydKomponenta": {
+      "skos:notation": "SK01",
+      "skos:prefLabel": {
         "@language": "uk",
-        "@value": "вибірковий"
-      },
-      "onp:zabezpechuieRezultat": {
-        "@id": "onp:rezultat-PRN21_3"
-      },
-      "sdo:courseCode": "Blok3",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Вибірковий блок 3 «Квантове програмування»"
-      },
-      "sdo:numberOfCredits": 23
+        "@value": "Здатність аналізувати предметні області, формувати, класифікувати вимоги до програмного забезпечення"
+      }
     },
     {
-      "@id": "onp:rezultat-PRN13",
+      "@id": "onp:rezultat-PRN11",
       "@type": [
         "onp:RezultatNavchannya",
         "skos:Concept"
@@ -765,53 +272,10 @@
           "@id": "onp:kompetentnist-ZK01"
         },
         {
-          "@id": "onp:kompetentnist-SK03"
+          "@id": "onp:kompetentnist-SK01"
         },
         {
           "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN13",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Конфігурувати програмне забезпечення, керувати його змінами та розробленням програмної документації"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK8",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Блокчейн технології"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
         },
         {
           "@id": "onp:kompetentnist-SK08"
@@ -820,109 +284,28 @@
           "@id": "onp:kompetentnist-SK09"
         }
       ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-ispyt"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN03"
-        },
-        {
-          "@id": "onp:rezultat-PRN04"
-        },
-        {
-          "@id": "onp:rezultat-PRN10"
-        },
-        {
-          "@id": "onp:rezultat-PRN11"
-        }
-      ],
-      "sdo:courseCode": "OK8",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Блокчейн технології"
-      },
-      "sdo:numberOfCredits": 6
-    },
-    {
-      "@id": "onp:rezultat-PRN20",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK04"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        },
-        {
-          "@id": "onp:kompetentnist-SK11"
-        }
-      ],
-      "skos:notation": "PRN20",
+      "skos:notation": "PRN11",
       "skos:prefLabel": {
         "@language": "uk",
-        "@value": "Планувати і виконувати наукові дослідження в сфері інженерії програмного забезпечення"
+        "@value": "Забезпечувати якість на всіх стадіях життєвого циклу програмного забезпечення"
       }
     },
     {
-      "@id": "onp:kompetentnist-SK02",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK02",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність розробляти і реалізовувати наукові та/або прикладні проекти у сфері інженерії програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:student-S03",
+      "@id": "onp:student-S22",
       "@type": [
         "foaf:Person",
         "onp:Student"
       ],
       "foaf:name": {
         "@language": "uk",
-        "@value": "Студент 03"
+        "@value": "Студент 22"
       },
       "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
+        "@id": "onp:pidgrupa-3"
       }
     },
     {
-      "@id": "onp:rezultat-PRN02",
+      "@id": "onp:rezultat-PRN17",
       "@type": [
         "onp:RezultatNavchannya",
         "skos:Concept"
@@ -932,148 +315,6 @@
         "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
       },
       "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK03"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN02",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Оцінювати і вибирати методи і моделі розроблення, впровадження, супроводу програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN10",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        }
-      ],
-      "skos:notation": "PRN10",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Модифікувати існуючі та розробляти нові алгоритмічні рішення детального проектування"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK10",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK10",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність планувати і виконувати наукові дослідження з інженерії програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:grupa-ІПЗм-11",
-      "@type": [
-        "foaf:Group",
-        "onp:Grupa"
-      ],
-      "onp:kilkistStudentiv": 27,
-      "onp:navchaietsyaZaProgramoyu": {
-        "@id": "onp:programa-F2-mahistr"
-      },
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "ІПЗм-11"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK03",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK03",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність проєктувати архітектуру програмного забезпечення, моделювати процеси функціонування окремих підсистем і модулів"
-      }
-    },
-    {
-      "@id": "onp:student-S11",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 11"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-2"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK9",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Виробнича практика «Розробка програмно-інформаційних систем»"
-      },
-      "onp:formuieKompetentnist": [
         {
           "@id": "onp:kompetentnist-ZK01"
         },
@@ -1087,106 +328,13 @@
           "@id": "onp:kompetentnist-ZK04"
         },
         {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        },
-        {
-          "@id": "onp:kompetentnist-SK11"
+          "@id": "onp:kompetentnist-SK10"
         }
       ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-dyf_zalik"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN03"
-        },
-        {
-          "@id": "onp:rezultat-PRN04"
-        },
-        {
-          "@id": "onp:rezultat-PRN07"
-        },
-        {
-          "@id": "onp:rezultat-PRN12"
-        },
-        {
-          "@id": "onp:rezultat-PRN14"
-        },
-        {
-          "@id": "onp:rezultat-PRN19"
-        },
-        {
-          "@id": "onp:rezultat-PRN20"
-        }
-      ],
-      "sdo:courseCode": "OK9",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Виробнича практика «Розробка програмно-інформаційних систем»"
-      },
-      "sdo:numberOfCredits": 10
-    },
-    {
-      "@id": "onp:kompetentnist-ZK02",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "загальна"
-      },
-      "skos:notation": "ZK02",
+      "skos:notation": "PRN17",
       "skos:prefLabel": {
         "@language": "uk",
-        "@value": "Здатність спілкуватися іноземною мовою як усно, так і письмово"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN05",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN05",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Розробляти, аналізувати, обґрунтовувати та систематизувати вимоги до програмного забезпечення"
+        "@value": "Збирати, аналізувати, оцінювати необхідну для розв'язання наукових і прикладних задач інформацію"
       }
     },
     {
@@ -1229,66 +377,7 @@
       }
     },
     {
-      "@id": "onp:student-S16",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 16"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-2"
-      }
-    },
-    {
-      "@id": "onp:komponent-Vybir1",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Вибір з переліку 1"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "вибірковий"
-      },
-      "sdo:courseCode": "Vybir1",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Вибір з переліку 1"
-      },
-      "sdo:numberOfCredits": 5
-    },
-    {
-      "@id": "onp:kompetentnist-SK08",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK08",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність розробляти і координувати процеси, етапи та ітерації життєвого циклу програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN12",
+      "@id": "onp:rezultat-PRN10",
       "@type": [
         "onp:RezultatNavchannya",
         "skos:Concept"
@@ -1300,407 +389,6 @@
       "onp:spyraietsyaNaKompetentnist": [
         {
           "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK06"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        }
-      ],
-      "skos:notation": "PRN12",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Приймати ефективні організаційно-управлінські рішення в умовах невизначеності та зміни вимог"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK12",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK12",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність застосовувати методи і алгоритми інтелектуального аналізу даних"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN18",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK04"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        },
-        {
-          "@id": "onp:kompetentnist-SK11"
-        }
-      ],
-      "skos:notation": "PRN18",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Розробляти математичне і програмне забезпечення для наукових досліджень у галузі інженерії програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK05",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK05",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність розробляти, аналізувати та застосовувати специфікації, стандарти, правила і рекомендації в сфері інженерії програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:pidgrupa-1",
-      "@type": [
-        "foaf:Group",
-        "onp:Pidgrupa"
-      ],
-      "onp:nomerPidgrupy": 1,
-      "org:subOrganizationOf": {
-        "@id": "onp:grupa-ІПЗм-11"
-      },
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "ІПЗм-11, підгрупа 1"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK11",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Програмування обробки великих масивів даних"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK08"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        },
-        {
-          "@id": "onp:kompetentnist-SK11"
-        }
-      ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-ispyt"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN04"
-        },
-        {
-          "@id": "onp:rezultat-PRN06"
-        },
-        {
-          "@id": "onp:rezultat-PRN09"
-        },
-        {
-          "@id": "onp:rezultat-PRN10"
-        },
-        {
-          "@id": "onp:rezultat-PRN18"
-        }
-      ],
-      "sdo:courseCode": "OK11",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Програмування обробки великих масивів даних"
-      },
-      "sdo:numberOfCredits": 6
-    },
-    {
-      "@id": "onp:komponent-Vybir2",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Вибір з переліку 2"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "вибірковий"
-      },
-      "sdo:courseCode": "Vybir2",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Вибір з переліку 2"
-      },
-      "sdo:numberOfCredits": 5
-    },
-    {
-      "@id": "onp:komponent-OK14",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Науковий семінар з програмної інженерії"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        }
-      ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-zalik"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN02"
-        },
-        {
-          "@id": "onp:rezultat-PRN04"
-        },
-        {
-          "@id": "onp:rezultat-PRN14"
-        },
-        {
-          "@id": "onp:rezultat-PRN17"
-        },
-        {
-          "@id": "onp:rezultat-PRN18"
-        },
-        {
-          "@id": "onp:rezultat-PRN20"
-        }
-      ],
-      "sdo:courseCode": "OK14",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Науковий семінар з програмної інженерії"
-      },
-      "sdo:numberOfCredits": 5
-    },
-    {
-      "@id": "onp:student-S17",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 17"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-2"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK06",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK06",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність ефективно керувати фінансовими, людськими, технічними та іншими проектними ресурсами у сфері інженерії програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:student-S09",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 09"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN16",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK03"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        }
-      ],
-      "skos:notation": "PRN16",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Планувати, організовувати та здійснювати тестування, верифікацію та валідацію програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK11",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK11",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність застосовувати і розвивати фундаментальні і міждисциплінарні знання для успішного розв'язання наукових проблем інженерії програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN19",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK04"
         },
         {
           "@id": "onp:kompetentnist-ZK05"
@@ -1712,620 +400,17 @@
           "@id": "onp:kompetentnist-SK04"
         },
         {
-          "@id": "onp:kompetentnist-SK10"
-        },
-        {
-          "@id": "onp:kompetentnist-SK11"
-        }
-      ],
-      "skos:notation": "PRN19",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Формулювати, експериментально перевіряти, обґрунтовувати і застосовувати на практиці інноваційні методи"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK07",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK07",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність критично осмислювати проблеми у галузі інформаційних технологій та на межі галузей знань"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN17",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        }
-      ],
-      "skos:notation": "PRN17",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Збирати, аналізувати, оцінювати необхідну для розв'язання наукових і прикладних задач інформацію"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-SK04",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "фахова"
-      },
-      "skos:notation": "SK04",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність розвивати і реалізовувати нові конкурентоспроможні ідеї в інженерії програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:forma-zalik",
-      "@type": [
-        "onp:FormaKontrolyu",
-        "skos:Concept"
-      ],
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "залік"
-      }
-    },
-    {
-      "@id": "onp:forma-dyf_zalik",
-      "@type": [
-        "onp:FormaKontrolyu",
-        "skos:Concept"
-      ],
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "диференційований залік"
-      }
-    },
-    {
-      "@id": "onp:student-S06",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 06"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
-      }
-    },
-    {
-      "@id": "onp:student-S07",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 07"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN01",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
           "@id": "onp:kompetentnist-SK05"
         },
         {
           "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
         }
       ],
-      "skos:notation": "PRN01",
+      "skos:notation": "PRN10",
       "skos:prefLabel": {
         "@language": "uk",
-        "@value": "Знати і застосовувати сучасні професійні стандарти та інші нормативно-правові документи з інженерії програмного забезпечення"
+        "@value": "Модифікувати існуючі та розробляти нові алгоритмічні рішення детального проектування"
       }
-    },
-    {
-      "@id": "onp:komponent-OK1",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Методологія та організація наукових досліджень з основами інтелектуальної власності"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK03"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        }
-      ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-zalik"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN03"
-        },
-        {
-          "@id": "onp:rezultat-PRN14"
-        },
-        {
-          "@id": "onp:rezultat-PRN17"
-        },
-        {
-          "@id": "onp:rezultat-PRN19"
-        },
-        {
-          "@id": "onp:rezultat-PRN20"
-        }
-      ],
-      "sdo:courseCode": "OK1",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Методологія та організація наукових досліджень з основами інтелектуальної власності"
-      },
-      "sdo:numberOfCredits": 3
-    },
-    {
-      "@id": "onp:student-S21",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 21"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:student-S27",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 27"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:kompetentnist-ZK01",
-      "@type": [
-        "onp:Kompetentnist",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:typKompetentnosti": {
-        "@language": "uk",
-        "@value": "загальна"
-      },
-      "skos:notation": "ZK01",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здатність до абстрактного мислення, аналізу та синтезу"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN21_1",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": {
-        "@id": "onp:kompetentnist-SK12"
-      },
-      "skos:notation": "PRN21.1",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Вміти обирати і застосовувати методи та алгоритми інтелектуального аналізу даних та машинного навчання"
-      }
-    },
-    {
-      "@id": "onp:student-S02",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 02"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN15",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        }
-      ],
-      "skos:notation": "PRN15",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Здійснювати реінжиніринг програмного забезпечення відповідно до вимог замовника"
-      }
-    },
-    {
-      "@id": "onp:komponent-Blok1",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Вибірковий блок 1 «Програмування інтелектуальних систем»"
-      },
-      "onp:formuieKompetentnist": {
-        "@id": "onp:kompetentnist-SK12"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "вибірковий"
-      },
-      "onp:zabezpechuieRezultat": {
-        "@id": "onp:rezultat-PRN21_1"
-      },
-      "sdo:courseCode": "Blok1",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Вибірковий блок 1 «Програмування інтелектуальних систем»"
-      },
-      "sdo:numberOfCredits": 23
-    },
-    {
-      "@id": "onp:komponent-Blok2",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Вибірковий блок 2 «Програмування комп'ютерного зору»"
-      },
-      "onp:formuieKompetentnist": {
-        "@id": "onp:kompetentnist-SK12"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "вибірковий"
-      },
-      "onp:zabezpechuieRezultat": {
-        "@id": "onp:rezultat-PRN21_2"
-      },
-      "sdo:courseCode": "Blok2",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Вибірковий блок 2 «Програмування комп'ютерного зору»"
-      },
-      "sdo:numberOfCredits": 23
-    },
-    {
-      "@id": "onp:student-S20",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 20"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN14",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN14",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Прогнозувати розвиток програмних систем та інформаційних технологій"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK5",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Багатопотокове та розподілене програмування"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK03"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        }
-      ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-ispyt"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN05"
-        },
-        {
-          "@id": "onp:rezultat-PRN07"
-        },
-        {
-          "@id": "onp:rezultat-PRN08"
-        },
-        {
-          "@id": "onp:rezultat-PRN09"
-        },
-        {
-          "@id": "onp:rezultat-PRN13"
-        },
-        {
-          "@id": "onp:rezultat-PRN16"
-        },
-        {
-          "@id": "onp:rezultat-PRN19"
-        }
-      ],
-      "sdo:courseCode": "OK5",
-      "sdo:name": [
-        {
-          "@language": "uk",
-          "@value": "Багатопотокове та розподілене програмування"
-        },
-        {
-          "@language": "en",
-          "@value": "Multithreaded and distributed programming"
-        }
-      ],
-      "sdo:numberOfCredits": 6
-    },
-    {
-      "@id": "onp:student-S10",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 10"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-2"
-      }
-    },
-    {
-      "@id": "onp:pidgrupa-3",
-      "@type": [
-        "foaf:Group",
-        "onp:Pidgrupa"
-      ],
-      "onp:nomerPidgrupy": 3,
-      "org:subOrganizationOf": {
-        "@id": "onp:grupa-ІПЗм-11"
-      },
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "ІПЗм-11, підгрупа 3"
-      }
-    },
-    {
-      "@id": "onp:komponent-OK3",
-      "@type": [
-        "sdo:Course",
-        "onp:OsvitniyKomponent"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "dcterms:title": {
-        "@language": "uk",
-        "@value": "Алгоритм обробки мультимедіа"
-      },
-      "onp:formuieKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK10"
-        },
-        {
-          "@id": "onp:kompetentnist-SK11"
-        }
-      ],
-      "onp:maieFormuKontrolyu": {
-        "@id": "onp:forma-ispyt"
-      },
-      "onp:vydKomponenta": {
-        "@language": "uk",
-        "@value": "обов'язковий"
-      },
-      "onp:zabezpechuieRezultat": [
-        {
-          "@id": "onp:rezultat-PRN09"
-        },
-        {
-          "@id": "onp:rezultat-PRN10"
-        },
-        {
-          "@id": "onp:rezultat-PRN18"
-        }
-      ],
-      "sdo:courseCode": "OK3",
-      "sdo:name": {
-        "@language": "uk",
-        "@value": "Алгоритм обробки мультимедіа"
-      },
-      "sdo:numberOfCredits": 6
     },
     {
       "@id": "onp:komponent-OK10",
@@ -2426,35 +511,74 @@
       "sdo:numberOfCredits": 12
     },
     {
-      "@id": "onp:student-S15",
+      "@id": "onp:rezultat-PRN16",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        }
+      ],
+      "skos:notation": "PRN16",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Планувати, організовувати та здійснювати тестування, верифікацію та валідацію програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:student-S10",
       "@type": [
         "foaf:Person",
         "onp:Student"
       ],
       "foaf:name": {
         "@language": "uk",
-        "@value": "Студент 15"
+        "@value": "Студент 10"
       },
       "onp:nalezhytPidgrupi": {
         "@id": "onp:pidgrupa-2"
       }
     },
     {
-      "@id": "onp:student-S18",
+      "@id": "onp:student-S20",
       "@type": [
         "foaf:Person",
         "onp:Student"
       ],
       "foaf:name": {
         "@language": "uk",
-        "@value": "Студент 18"
+        "@value": "Студент 20"
       },
       "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-2"
+        "@id": "onp:pidgrupa-3"
       }
     },
     {
-      "@id": "onp:komponent-OK6",
+      "@id": "onp:komponent-OK15",
       "@type": [
         "sdo:Course",
         "onp:OsvitniyKomponent"
@@ -2465,7 +589,7 @@
       },
       "dcterms:title": {
         "@language": "uk",
-        "@value": "Хмарні обчислення та їх надійність"
+        "@value": "Курсова робота"
       },
       "onp:formuieKompetentnist": [
         {
@@ -2475,16 +599,160 @@
           "@id": "onp:kompetentnist-ZK02"
         },
         {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
           "@id": "onp:kompetentnist-SK02"
         },
         {
-          "@id": "onp:kompetentnist-SK04"
+          "@id": "onp:kompetentnist-SK10"
         },
         {
-          "@id": "onp:kompetentnist-SK08"
+          "@id": "onp:kompetentnist-SK11"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-dyf_zalik"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN02"
         },
         {
-          "@id": "onp:kompetentnist-SK09"
+          "@id": "onp:rezultat-PRN05"
+        },
+        {
+          "@id": "onp:rezultat-PRN07"
+        },
+        {
+          "@id": "onp:rezultat-PRN09"
+        },
+        {
+          "@id": "onp:rezultat-PRN19"
+        },
+        {
+          "@id": "onp:rezultat-PRN20"
+        }
+      ],
+      "sdo:courseCode": "OK15",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Курсова робота"
+      },
+      "sdo:numberOfCredits": 2
+    },
+    {
+      "@id": "onp:student-S14",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 14"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-2"
+      }
+    },
+    {
+      "@id": "onp:komponent-Blok2",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Вибірковий блок 2 «Програмування комп'ютерного зору»"
+      },
+      "onp:formuieKompetentnist": {
+        "@id": "onp:kompetentnist-SK12"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "вибірковий"
+      },
+      "onp:zabezpechuieRezultat": {
+        "@id": "onp:rezultat-PRN21_2"
+      },
+      "sdo:courseCode": "Blok2",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Вибірковий блок 2 «Програмування комп'ютерного зору»"
+      },
+      "sdo:numberOfCredits": 23
+    },
+    {
+      "@id": "onp:student-S11",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 11"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-2"
+      }
+    },
+    {
+      "@id": "onp:student-S24",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 24"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-3"
+      }
+    },
+    {
+      "@id": "onp:komponent-OK3",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Алгоритм обробки мультимедіа"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK10"
+        },
+        {
+          "@id": "onp:kompetentnist-SK11"
         }
       ],
       "onp:maieFormuKontrolyu": {
@@ -2496,52 +764,123 @@
       },
       "onp:zabezpechuieRezultat": [
         {
-          "@id": "onp:rezultat-PRN01"
+          "@id": "onp:rezultat-PRN09"
         },
         {
-          "@id": "onp:rezultat-PRN02"
+          "@id": "onp:rezultat-PRN10"
         },
         {
-          "@id": "onp:rezultat-PRN03"
-        },
-        {
-          "@id": "onp:rezultat-PRN08"
-        },
-        {
-          "@id": "onp:rezultat-PRN11"
-        },
-        {
-          "@id": "onp:rezultat-PRN14"
-        },
-        {
-          "@id": "onp:rezultat-PRN15"
+          "@id": "onp:rezultat-PRN18"
         }
       ],
-      "sdo:courseCode": "OK6",
-      "sdo:name": [
-        {
-          "@language": "uk",
-          "@value": "Хмарні обчислення та їх надійність"
-        },
-        {
-          "@language": "en",
-          "@value": "Cloud computing and it's reliability"
-        }
-      ],
+      "sdo:courseCode": "OK3",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Алгоритм обробки мультимедіа"
+      },
       "sdo:numberOfCredits": 6
     },
     {
-      "@id": "onp:student-S26",
+      "@id": "onp:rezultat-PRN06",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK06"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN06",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Розробляти та оцінювати стратегії проектування програмних засобів"
+      }
+    },
+    {
+      "@id": "onp:student-S08",
       "@type": [
         "foaf:Person",
         "onp:Student"
       ],
       "foaf:name": {
         "@language": "uk",
-        "@value": "Студент 26"
+        "@value": "Студент 08"
       },
       "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-3"
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN05",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN05",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Розробляти, аналізувати, обґрунтовувати та систематизувати вимоги до програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-ZK05",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "загальна"
+      },
+      "skos:notation": "ZK05",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність генерувати нові ідеї (креативність)"
       }
     },
     {
@@ -2651,189 +990,83 @@
       }
     },
     {
-      "@id": "onp:forma-zakhyst",
+      "@id": "onp:pidgrupa-1",
       "@type": [
-        "onp:FormaKontrolyu",
-        "skos:Concept"
+        "foaf:Group",
+        "onp:Pidgrupa"
       ],
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "захист"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN09",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN09",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Обґрунтовано вибирати парадигми і мови програмування для розроблення програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN06",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK02"
-        },
-        {
-          "@id": "onp:kompetentnist-SK03"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK06"
-        },
-        {
-          "@id": "onp:kompetentnist-SK07"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN06",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Розробляти та оцінювати стратегії проектування програмних засобів"
-      }
-    },
-    {
-      "@id": "onp:rezultat-PRN11",
-      "@type": [
-        "onp:RezultatNavchannya",
-        "skos:Concept"
-      ],
-      "dcterms:source": {
-        "@language": "uk",
-        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
-      },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        },
-        {
-          "@id": "onp:kompetentnist-SK05"
-        },
-        {
-          "@id": "onp:kompetentnist-SK08"
-        },
-        {
-          "@id": "onp:kompetentnist-SK09"
-        }
-      ],
-      "skos:notation": "PRN11",
-      "skos:prefLabel": {
-        "@language": "uk",
-        "@value": "Забезпечувати якість на всіх стадіях життєвого циклу програмного забезпечення"
-      }
-    },
-    {
-      "@id": "onp:student-S08",
-      "@type": [
-        "foaf:Person",
-        "onp:Student"
-      ],
-      "foaf:name": {
-        "@language": "uk",
-        "@value": "Студент 08"
-      },
-      "onp:nalezhytPidgrupi": {
-        "@id": "onp:pidgrupa-1"
-      }
-    },
-    {
-      "@id": "onp:kafedra-PST",
-      "@type": [
-        "onp:Kafedra",
-        "org:OrganizationalUnit"
-      ],
+      "onp:nomerPidgrupy": 1,
       "org:subOrganizationOf": {
-        "@id": "onp:FIT"
+        "@id": "onp:grupa-ІПЗм-11"
       },
       "sdo:name": {
         "@language": "uk",
-        "@value": "Кафедра програмних систем і технологій"
-      },
-      "sdo:url": {
-        "@type": "xsd:anyURI",
-        "@value": "https://pst.knu.ua"
+        "@value": "ІПЗм-11, підгрупа 1"
       }
     },
     {
-      "@id": "onp:rezultat-PRN04",
+      "@id": "onp:kompetentnist-SK12",
       "@type": [
-        "onp:RezultatNavchannya",
+        "onp:Kompetentnist",
         "skos:Concept"
       ],
       "dcterms:source": {
         "@language": "uk",
         "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
       },
-      "onp:spyraietsyaNaKompetentnist": [
-        {
-          "@id": "onp:kompetentnist-ZK01"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK02"
-        },
-        {
-          "@id": "onp:kompetentnist-ZK04"
-        },
-        {
-          "@id": "onp:kompetentnist-SK01"
-        }
-      ],
-      "skos:notation": "PRN04",
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK12",
       "skos:prefLabel": {
         "@language": "uk",
-        "@value": "Виявляти інформаційні потреби і класифікувати дані для проектування програмного забезпечення"
+        "@value": "Здатність застосовувати методи і алгоритми інтелектуального аналізу даних"
       }
     },
     {
-      "@id": "onp:student-S13",
+      "@id": "onp:kompetentnist-SK04",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK04",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність розвивати і реалізовувати нові конкурентоспроможні ідеї в інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:student-S15",
       "@type": [
         "foaf:Person",
         "onp:Student"
       ],
       "foaf:name": {
         "@language": "uk",
-        "@value": "Студент 13"
+        "@value": "Студент 15"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-2"
+      }
+    },
+    {
+      "@id": "onp:student-S18",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 18"
       },
       "onp:nalezhytPidgrupi": {
         "@id": "onp:pidgrupa-2"
@@ -2908,6 +1141,964 @@
       "sdo:numberOfCredits": 6
     },
     {
+      "@id": "onp:komponent-OK11",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Програмування обробки великих масивів даних"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK08"
+        },
+        {
+          "@id": "onp:kompetentnist-SK10"
+        },
+        {
+          "@id": "onp:kompetentnist-SK11"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-ispyt"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN04"
+        },
+        {
+          "@id": "onp:rezultat-PRN06"
+        },
+        {
+          "@id": "onp:rezultat-PRN09"
+        },
+        {
+          "@id": "onp:rezultat-PRN10"
+        },
+        {
+          "@id": "onp:rezultat-PRN18"
+        }
+      ],
+      "sdo:courseCode": "OK11",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Програмування обробки великих масивів даних"
+      },
+      "sdo:numberOfCredits": 6
+    },
+    {
+      "@id": "onp:FIT",
+      "@type": [
+        "onp:Fakultet",
+        "org:OrganizationalUnit"
+      ],
+      "org:subOrganizationOf": {
+        "@id": "onp:KNU"
+      },
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Факультет інформаційних технологій"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-SK08",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK08",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність розробляти і координувати процеси, етапи та ітерації життєвого циклу програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-SK05",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK05",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність розробляти, аналізувати та застосовувати специфікації, стандарти, правила і рекомендації в сфері інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:student-S26",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 26"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-3"
+      }
+    },
+    {
+      "@id": "onp:komponent-Blok3",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Вибірковий блок 3 «Квантове програмування»"
+      },
+      "onp:formuieKompetentnist": {
+        "@id": "onp:kompetentnist-SK12"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "вибірковий"
+      },
+      "onp:zabezpechuieRezultat": {
+        "@id": "onp:rezultat-PRN21_3"
+      },
+      "sdo:courseCode": "Blok3",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Вибірковий блок 3 «Квантове програмування»"
+      },
+      "sdo:numberOfCredits": 23
+    },
+    {
+      "@id": "onp:rezultat-PRN09",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN09",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Обґрунтовано вибирати парадигми і мови програмування для розроблення програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:grupa-ІПЗм-11",
+      "@type": [
+        "foaf:Group",
+        "onp:Grupa"
+      ],
+      "onp:kilkistStudentiv": 27,
+      "onp:navchaietsyaZaProgramoyu": {
+        "@id": "onp:programa-F2-mahistr"
+      },
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "ІПЗм-11"
+      }
+    },
+    {
+      "@id": "onp:student-S05",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 05"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-SK11",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK11",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність застосовувати і розвивати фундаментальні і міждисциплінарні знання для успішного розв'язання наукових проблем інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:student-S09",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 09"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:komponent-OK14",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Науковий семінар з програмної інженерії"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK10"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-zalik"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN02"
+        },
+        {
+          "@id": "onp:rezultat-PRN04"
+        },
+        {
+          "@id": "onp:rezultat-PRN14"
+        },
+        {
+          "@id": "onp:rezultat-PRN17"
+        },
+        {
+          "@id": "onp:rezultat-PRN18"
+        },
+        {
+          "@id": "onp:rezultat-PRN20"
+        }
+      ],
+      "sdo:courseCode": "OK14",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Науковий семінар з програмної інженерії"
+      },
+      "sdo:numberOfCredits": 5
+    },
+    {
+      "@id": "onp:rezultat-PRN02",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN02",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Оцінювати і вибирати методи і моделі розроблення, впровадження, супроводу програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:komponent-Vybir1",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Вибір з переліку 1"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "вибірковий"
+      },
+      "sdo:courseCode": "Vybir1",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Вибір з переліку 1"
+      },
+      "sdo:numberOfCredits": 5
+    },
+    {
+      "@id": "onp:kompetentnist-ZK02",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "загальна"
+      },
+      "skos:notation": "ZK02",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність спілкуватися іноземною мовою як усно, так і письмово"
+      }
+    },
+    {
+      "@id": "onp:student-S06",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 06"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN01",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN01",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Знати і застосовувати сучасні професійні стандарти та інші нормативно-правові документи з інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:student-S27",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 27"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-3"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-SK03",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK03",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність проєктувати архітектуру програмного забезпечення, моделювати процеси функціонування окремих підсистем і модулів"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-SK09",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK09",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність забезпечувати якість програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:komponent-OK5",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Багатопотокове та розподілене програмування"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-ispyt"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN05"
+        },
+        {
+          "@id": "onp:rezultat-PRN07"
+        },
+        {
+          "@id": "onp:rezultat-PRN08"
+        },
+        {
+          "@id": "onp:rezultat-PRN09"
+        },
+        {
+          "@id": "onp:rezultat-PRN13"
+        },
+        {
+          "@id": "onp:rezultat-PRN16"
+        },
+        {
+          "@id": "onp:rezultat-PRN19"
+        }
+      ],
+      "sdo:courseCode": "OK5",
+      "sdo:name": [
+        {
+          "@language": "uk",
+          "@value": "Багатопотокове та розподілене програмування"
+        },
+        {
+          "@language": "en",
+          "@value": "Multithreaded and distributed programming"
+        }
+      ],
+      "sdo:numberOfCredits": 6
+    },
+    {
+      "@id": "onp:student-S02",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 02"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:student-S07",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 07"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:student-S04",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 04"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:student-S23",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 23"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-3"
+      }
+    },
+    {
+      "@id": "onp:komponent-Vybir2",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Вибір з переліку 2"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "вибірковий"
+      },
+      "sdo:courseCode": "Vybir2",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Вибір з переліку 2"
+      },
+      "sdo:numberOfCredits": 5
+    },
+    {
+      "@id": "onp:rezultat-PRN18",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK04"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK10"
+        },
+        {
+          "@id": "onp:kompetentnist-SK11"
+        }
+      ],
+      "skos:notation": "PRN18",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Розробляти математичне і програмне забезпечення для наукових досліджень у галузі інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:komponent-OK8",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Блокчейн технології"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK08"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-ispyt"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN03"
+        },
+        {
+          "@id": "onp:rezultat-PRN04"
+        },
+        {
+          "@id": "onp:rezultat-PRN10"
+        },
+        {
+          "@id": "onp:rezultat-PRN11"
+        }
+      ],
+      "sdo:courseCode": "OK8",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Блокчейн технології"
+      },
+      "sdo:numberOfCredits": 6
+    },
+    {
+      "@id": "onp:rezultat-PRN15",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        }
+      ],
+      "skos:notation": "PRN15",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здійснювати реінжиніринг програмного забезпечення відповідно до вимог замовника"
+      }
+    },
+    {
+      "@id": "onp:forma-ispyt",
+      "@type": [
+        "onp:FormaKontrolyu",
+        "skos:Concept"
+      ],
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "іспит"
+      }
+    },
+    {
+      "@id": "onp:komponent-OK9",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Виробнича практика «Розробка програмно-інформаційних систем»"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        },
+        {
+          "@id": "onp:kompetentnist-SK11"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-dyf_zalik"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN03"
+        },
+        {
+          "@id": "onp:rezultat-PRN04"
+        },
+        {
+          "@id": "onp:rezultat-PRN07"
+        },
+        {
+          "@id": "onp:rezultat-PRN12"
+        },
+        {
+          "@id": "onp:rezultat-PRN14"
+        },
+        {
+          "@id": "onp:rezultat-PRN19"
+        },
+        {
+          "@id": "onp:rezultat-PRN20"
+        }
+      ],
+      "sdo:courseCode": "OK9",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Виробнича практика «Розробка програмно-інформаційних систем»"
+      },
+      "sdo:numberOfCredits": 10
+    },
+    {
+      "@id": "onp:komponent-OK6",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Хмарні обчислення та їх надійність"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK08"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-ispyt"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN01"
+        },
+        {
+          "@id": "onp:rezultat-PRN02"
+        },
+        {
+          "@id": "onp:rezultat-PRN03"
+        },
+        {
+          "@id": "onp:rezultat-PRN08"
+        },
+        {
+          "@id": "onp:rezultat-PRN11"
+        },
+        {
+          "@id": "onp:rezultat-PRN14"
+        },
+        {
+          "@id": "onp:rezultat-PRN15"
+        }
+      ],
+      "sdo:courseCode": "OK6",
+      "sdo:name": [
+        {
+          "@language": "uk",
+          "@value": "Хмарні обчислення та їх надійність"
+        },
+        {
+          "@language": "en",
+          "@value": "Cloud computing and it's reliability"
+        }
+      ],
+      "sdo:numberOfCredits": 6
+    },
+    {
       "@id": "onp:komponent-OK2",
       "@type": [
         "sdo:Course",
@@ -2964,7 +2155,796 @@
       "sdo:numberOfCredits": 3
     },
     {
-      "@id": "onp:kompetentnist-ZK05",
+      "@id": "onp:student-S12",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 12"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-2"
+      }
+    },
+    {
+      "@id": "onp:student-S21",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 21"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-3"
+      }
+    },
+    {
+      "@id": "onp:student-S25",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 25"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-3"
+      }
+    },
+    {
+      "@id": "onp:student-S17",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 17"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-2"
+      }
+    },
+    {
+      "@id": "onp:komponent-OK7",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Методи і технології високопродуктивних обчислень"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-ispyt"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN05"
+        },
+        {
+          "@id": "onp:rezultat-PRN06"
+        },
+        {
+          "@id": "onp:rezultat-PRN07"
+        },
+        {
+          "@id": "onp:rezultat-PRN08"
+        },
+        {
+          "@id": "onp:rezultat-PRN11"
+        },
+        {
+          "@id": "onp:rezultat-PRN16"
+        },
+        {
+          "@id": "onp:rezultat-PRN18"
+        }
+      ],
+      "sdo:courseCode": "OK7",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Методи і технології високопродуктивних обчислень"
+      },
+      "sdo:numberOfCredits": 6
+    },
+    {
+      "@id": "onp:rezultat-PRN04",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        }
+      ],
+      "skos:notation": "PRN04",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Виявляти інформаційні потреби і класифікувати дані для проектування програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:student-S03",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 03"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN07",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK06"
+        }
+      ],
+      "skos:notation": "PRN07",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Аналізувати, оцінювати та застосовувати на системному рівні сучасні програмні та апаратні платформи"
+      }
+    },
+    {
+      "@id": "onp:KNU",
+      "@type": [
+        "sdo:CollegeOrUniversity",
+        "onp:Universytet"
+      ],
+      "owl:sameAs": {
+        "@id": "wd:Q84151"
+      },
+      "sdo:name": [
+        {
+          "@language": "uk",
+          "@value": "Київський національний університет імені Тараса Шевченка"
+        },
+        {
+          "@language": "en",
+          "@value": "Taras Shevchenko National University of Kyiv"
+        }
+      ],
+      "sdo:url": {
+        "@type": "xsd:anyURI",
+        "@value": "https://knu.ua"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN21_2",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": {
+        "@id": "onp:kompetentnist-SK12"
+      },
+      "skos:notation": "PRN21.2",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Вміти розробляти складні програми різних архітектур для задач комп'ютерного зору"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-SK02",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK02",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність розробляти і реалізовувати наукові та/або прикладні проекти у сфері інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN03",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN03",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Будувати і досліджувати моделі інформаційних процесів у прикладній області"
+      }
+    },
+    {
+      "@id": "onp:forma-dyf_zalik",
+      "@type": [
+        "onp:FormaKontrolyu",
+        "skos:Concept"
+      ],
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "диференційований залік"
+      }
+    },
+    {
+      "@id": "onp:student-S16",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 16"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-2"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN13",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN13",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Конфігурувати програмне забезпечення, керувати його змінами та розробленням програмної документації"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-SK06",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "фахова"
+      },
+      "skos:notation": "SK06",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність ефективно керувати фінансовими, людськими, технічними та іншими проектними ресурсами у сфері інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:forma-zakhyst",
+      "@type": [
+        "onp:FormaKontrolyu",
+        "skos:Concept"
+      ],
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "захист"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN21_3",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": {
+        "@id": "onp:kompetentnist-SK12"
+      },
+      "skos:notation": "PRN21.3",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Вміти використовувати принципи і концепції передових програмних та обчислювальних технологій"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN19",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK04"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK10"
+        },
+        {
+          "@id": "onp:kompetentnist-SK11"
+        }
+      ],
+      "skos:notation": "PRN19",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Формулювати, експериментально перевіряти, обґрунтовувати і застосовувати на практиці інноваційні методи"
+      }
+    },
+    {
+      "@id": "onp:student-S01",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 01"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-1"
+      }
+    },
+    {
+      "@id": "onp:pidgrupa-2",
+      "@type": [
+        "foaf:Group",
+        "onp:Pidgrupa"
+      ],
+      "onp:nomerPidgrupy": 2,
+      "org:subOrganizationOf": {
+        "@id": "onp:grupa-ІПЗм-11"
+      },
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "ІПЗм-11, підгрупа 2"
+      }
+    },
+    {
+      "@id": "onp:student-S13",
+      "@type": [
+        "foaf:Person",
+        "onp:Student"
+      ],
+      "foaf:name": {
+        "@language": "uk",
+        "@value": "Студент 13"
+      },
+      "onp:nalezhytPidgrupi": {
+        "@id": "onp:pidgrupa-2"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN21_1",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": {
+        "@id": "onp:kompetentnist-SK12"
+      },
+      "skos:notation": "PRN21.1",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Вміти обирати і застосовувати методи та алгоритми інтелектуального аналізу даних та машинного навчання"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN20",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK04"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK10"
+        },
+        {
+          "@id": "onp:kompetentnist-SK11"
+        }
+      ],
+      "skos:notation": "PRN20",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Планувати і виконувати наукові дослідження в сфері інженерії програмного забезпечення"
+      }
+    },
+    {
+      "@id": "onp:komponent-OK12",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Програмування вбудованих систем"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK03"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK06"
+        },
+        {
+          "@id": "onp:kompetentnist-SK08"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-ispyt"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN03"
+        },
+        {
+          "@id": "onp:rezultat-PRN06"
+        },
+        {
+          "@id": "onp:rezultat-PRN07"
+        },
+        {
+          "@id": "onp:rezultat-PRN13"
+        }
+      ],
+      "sdo:courseCode": "OK12",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Програмування вбудованих систем"
+      },
+      "sdo:numberOfCredits": 6
+    },
+    {
+      "@id": "onp:forma-zalik",
+      "@type": [
+        "onp:FormaKontrolyu",
+        "skos:Concept"
+      ],
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "залік"
+      }
+    },
+    {
+      "@id": "onp:komponent-Blok1",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Вибірковий блок 1 «Програмування інтелектуальних систем»"
+      },
+      "onp:formuieKompetentnist": {
+        "@id": "onp:kompetentnist-SK12"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "вибірковий"
+      },
+      "onp:zabezpechuieRezultat": {
+        "@id": "onp:rezultat-PRN21_1"
+      },
+      "sdo:courseCode": "Blok1",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Вибірковий блок 1 «Програмування інтелектуальних систем»"
+      },
+      "sdo:numberOfCredits": 23
+    },
+    {
+      "@id": "onp:komponent-OK1",
+      "@type": [
+        "sdo:Course",
+        "onp:OsvitniyKomponent"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "dcterms:title": {
+        "@language": "uk",
+        "@value": "Методологія та організація наукових досліджень з основами інтелектуальної власності"
+      },
+      "onp:formuieKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK03"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK10"
+        }
+      ],
+      "onp:maieFormuKontrolyu": {
+        "@id": "onp:forma-zalik"
+      },
+      "onp:vydKomponenta": {
+        "@language": "uk",
+        "@value": "обов'язковий"
+      },
+      "onp:zabezpechuieRezultat": [
+        {
+          "@id": "onp:rezultat-PRN03"
+        },
+        {
+          "@id": "onp:rezultat-PRN14"
+        },
+        {
+          "@id": "onp:rezultat-PRN17"
+        },
+        {
+          "@id": "onp:rezultat-PRN19"
+        },
+        {
+          "@id": "onp:rezultat-PRN20"
+        }
+      ],
+      "sdo:courseCode": "OK1",
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Методологія та організація наукових досліджень з основами інтелектуальної власності"
+      },
+      "sdo:numberOfCredits": 3
+    },
+    {
+      "@id": "onp:kafedra-PST",
+      "@type": [
+        "onp:Kafedra",
+        "org:OrganizationalUnit"
+      ],
+      "org:subOrganizationOf": {
+        "@id": "onp:FIT"
+      },
+      "sdo:name": {
+        "@language": "uk",
+        "@value": "Кафедра програмних систем і технологій"
+      },
+      "sdo:url": {
+        "@type": "xsd:anyURI",
+        "@value": "https://pst.knu.ua"
+      }
+    },
+    {
+      "@id": "onp:rezultat-PRN14",
+      "@type": [
+        "onp:RezultatNavchannya",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:spyraietsyaNaKompetentnist": [
+        {
+          "@id": "onp:kompetentnist-ZK01"
+        },
+        {
+          "@id": "onp:kompetentnist-ZK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK01"
+        },
+        {
+          "@id": "onp:kompetentnist-SK02"
+        },
+        {
+          "@id": "onp:kompetentnist-SK04"
+        },
+        {
+          "@id": "onp:kompetentnist-SK05"
+        },
+        {
+          "@id": "onp:kompetentnist-SK07"
+        },
+        {
+          "@id": "onp:kompetentnist-SK09"
+        }
+      ],
+      "skos:notation": "PRN14",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Прогнозувати розвиток програмних систем та інформаційних технологій"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-ZK04",
       "@type": [
         "onp:Kompetentnist",
         "skos:Concept"
@@ -2977,10 +2957,30 @@
         "@language": "uk",
         "@value": "загальна"
       },
-      "skos:notation": "ZK05",
+      "skos:notation": "ZK04",
       "skos:prefLabel": {
         "@language": "uk",
-        "@value": "Здатність генерувати нові ідеї (креативність)"
+        "@value": "Здатність спілкуватися з представниками інших професійних груп різного рівня"
+      }
+    },
+    {
+      "@id": "onp:kompetentnist-ZK01",
+      "@type": [
+        "onp:Kompetentnist",
+        "skos:Concept"
+      ],
+      "dcterms:source": {
+        "@language": "uk",
+        "@value": "ОНП «Інженерія програмного забезпечення», спеціальність F2, освітній рівень магістр, КНУ імені Тараса Шевченка, ID ЄДБО 9112, наказ ректора № 342-32 від 25.04.2025"
+      },
+      "onp:typKompetentnosti": {
+        "@language": "uk",
+        "@value": "загальна"
+      },
+      "skos:notation": "ZK01",
+      "skos:prefLabel": {
+        "@language": "uk",
+        "@value": "Здатність до абстрактного мислення, аналізу та синтезу"
       }
     }
   ]
